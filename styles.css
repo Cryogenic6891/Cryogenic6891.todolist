@@ -1,0 +1,13 @@
+.titleBox {
+    background-color: bisque;
+    color: black;
+    padding: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.listBox {
+    background-color: black;
+    color: white;
+    padding: auto;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
