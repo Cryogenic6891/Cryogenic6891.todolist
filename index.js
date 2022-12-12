@@ -9,9 +9,9 @@ function addTask(){
   
     let entry = document.createElement('li');
     let cancel = document.createElement('button');
-    let x = document.createTextNode('X');
+    let x = document.createTextNode('Remove');
     cancel.appendChild(x);
-    entry.appendChild(document.createTextNode(task));
+    entry.appendChild(document.createTextNode(task + " "));
     entry.appendChild(cancel)
     list.appendChild(entry)
     cancel.addEventListener('click',() => {removeTask(entry)});
